@@ -6,7 +6,7 @@ Every release carries three files:
 
 | File | What it is |
 | --- | --- |
-| `UpLink Setup.exe` | The PC side. Installs the service and the agent, or updates an existing install. Asks for administrator rights once. |
+| `UpLink.Setup.exe` | The PC side. Installs the service and the agent, or updates an existing install. Asks for administrator rights once. (GitHub does not allow a space in an asset name; once installed it is `UpLink Setup.exe`.) |
 | `UpLink.apk` | The Android app, signed with the same key as every previous release, so it installs over the one you have. |
 | `SHA256SUMS` | The SHA-256 of the two files above. The updaters built into UpLink verify a download against it before running anything. |
 
